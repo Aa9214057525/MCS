@@ -1,0 +1,41 @@
+h1, p {
+  color: #FFF;
+  background-color: #020202;
+}
+h1 {
+  padding: 1px;}
+.synopsis {
+  color: #020202;
+  font-style: italic;
+  background-color: #FFF;
+}
+.button {
+  color: #FFF;
+  background-color: #3c3b3b;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #050505;
+  border-radius: 45px;
+
+  width: 300px;
+  margin: 20px auto;
+}
+a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(190, 241, 51);
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
