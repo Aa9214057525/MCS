@@ -87,12 +87,42 @@ a:active {
   justify-content: center;
   margin-bottom: 20px;
 }
-.synopsis, 
-.synopsis2, 
-.synopsis3 {
+.synopsis {
 display: flex;
 justify-content: center;
 background-color: rgb(126, 248, 248);
 font-size: larger; 
 color: #000000;
+padding-bottom: 20px;
+}
+.Hierogliph {
+  display: flex;
+  width: 1440px;
+  padding-left: 20px;
+  background-color: red;
+  color: white;
+}
+.column-container {  
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.column {
+border: 2px solid #E5E000;
+border-radius: 30px;
+width: 400px;
+height: 800px;
+font-size: 20px;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+font-family: 'Times New Roman', Times, serif;
+font-stretch: semi-expanded;
+line-height: 135%;
+align-items: center;
+}
+.h1 {
+  font: helvetica;
+  font-size: 18px;
+  padding-bottom: 20px;
 }
