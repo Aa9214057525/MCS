@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 1440px;
+    padding: 20px;
+    color: #e90404;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+.menue {
+    margin: 50px;
+    padding: 20px;
+    width: 900px;
+    border: 2px solid #F8BFC7;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:link {
+    color: firebrick;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(253, 0, 0);
+}
+
+a:hover {
+    color: rgba(0, 77, 119, 0.793);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 51, 0);
+}
+
+.photo-grid-container {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cprght {
+    margin: 10px;
+    padding: 20px;
+    width: auto;
+    display: flex;
+    background-color: #F8BFC7;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pphoto-grid-item-last-item {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.about-container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero-block {
+height: 950px;
+width: 1440px;
+color: #E50043;
+font: arial;
+font-stretch: ultra-condensed;
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(images/evian_origins_logo.png);
+background-size: cover;
+}
+.first {
+width: 500px;
+display: flex;
+justify-content: baseline;
+align-items: center;
+}
+.links {
+width: 700px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+}
