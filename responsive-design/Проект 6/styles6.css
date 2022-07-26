@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  margin-top: 50px;
+}
+
+.section {
+  width: 600px;
+  height: 300px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  border: 5px solid #050505;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #0000ff;
+  font-style: normal;
+  font-size: xx-large;
+  color: white;
+}
+
+.cprght {
+  width: 100%;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #0000ff;
+  font-style: normal;
+  font-size: xx-large;
+  color: white;
+}
+
+/* Макет для мобильных */
+@media only screen and (min-width: 375px) {
+  body {
+    width: 100%;
+    background-color: #ffffff
+  }
+}
+
+/* Макет для десктопов */
+@media only screen and (max-width: 375px) {
+  .page {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .Octopus,
+  .Internet,
+  .Ghost,
+  .Virgil {
+    width: 50%;
+  }
+}
