@@ -7,19 +7,21 @@
 .page {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center;
   margin-top: 50px;
 }
 
 .section {
-  width: 600px;
+  width: 45%;
   height: 300px;
   margin: 20px;
-  display: flex;
-  justify-content: space-around;
+  display: flex;;
   align-items: center;
   box-sizing: border-box;
   border: 5px solid #050505;
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
 }
 
 .header {
@@ -30,7 +32,7 @@
   justify-content: left;
   align-items: center;
   background-color: #0000ff;
-  font-style: normal;
+  font-style: Helvetica, sans-serif;
   font-size: xx-large;
   color: white;
 }
@@ -43,14 +45,14 @@
   justify-content: left;
   align-items: center;
   background-color: #0000ff;
-  font-style: normal;
+  font-style: Helvetica, sans-serif;
   font-size: xx-large;
   color: white;
 }
 
 /* Макет для мобильных */
-@media only screen and (min-width: 375px) {
-  body {
+@media only screen and (max-width: 800px) {
+  .section {
     width: 100%;
     background-color: #ffffff
   }
@@ -58,12 +60,11 @@
 
 /* Макет для десктопов */
 @media only screen and (max-width: 375px) {
-  .page {
+  .section {
     width: 100%;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    
   }
 
   .Octopus,
@@ -72,4 +73,3 @@
   .Virgil {
     width: 50%;
   }
-}
