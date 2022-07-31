@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(244, 236, 230);
+
+}
+
+.page {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-family: 'system-ui';
+  font-stretch: ultra-expanded;
+  color: rgb(203, 133, 21);  
+}
+
+.columns {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10%;
+  margin-top: 100px;
+  border: 2px solid #f1d86b;
+  background-color: #f0f6d6;
+  border-radius: 200px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Nomade,
+.Luna,
+.Fico {
+  display: block;
+  width: 33%;
+  margin: 10px;
+  border: 2px solid #FFE138;
+  font-family: 'system-ui';
+  font-stretch: semi-expanded;
+  font-size: smaller;
+  justify-content: center;
+
+}
+.h1 {
+  border: 2px solid #f1d86b;
+  border-radius: 10px;
+  justify-content: center;
+}
+.h2 {
+  font-size: 24px;
+  font-family: 'system-ui';
+  font-stretch: semi-expanded;
+  justify-content: center;
+  text-align: center;
+}
+.links {
+  display: flex;
+  width: 100%;
+  margin: 20px;
+}
+  a:link {
+    color: rgb(2, 115, 2); 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(203, 133, 21); 
+    font-size: larger;
+  }
+  a:hover {
+    color: #fe7700;
+    text-decoration: underline;
+    font-size: x-large;
+  }
+  
+  a:active {
+    color: red;
+    font-size: xx-large;
+}
+/* Макет для мобильных */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Макет для десктопов */
+@media only screen and (min-width: 961px) {
+}
