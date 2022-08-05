@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Анкета клиента</title>
+    <link rel="stylesheet" href="8styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="feedback-form-header">
+        <h1>Форма обратной связи</h1>
+        <p><em>Пожалуйста, ответьте на несколько вопросов чтобы присоединиться к нашей программе лояльности ♡</em></p>
+    </header>
+    <form action="https://formspree.io/f/xdojnbgl" method="post" class="feedback-form">
+        <div class="form-row">
+            <label for="full-name">Имя</label>
+            <input id="full-name" name="full-name" type="text" />
+        </div>
+        <fieldset class="legacy-form-row">
+            <legend>Пол</legend>
+            <input id="talk-type-1" name="talk-type" type="radio" value="M" />
+            <label for="talk-type-1" class="radio-label">М</label>
+            <input id="talk-type-2" name="talk-type" type="radio" value="W" />
+            <label for="talk-type-2" class="radio-label">Ж</label>
+            <input id="talk-type-3" name="talk-type" type="radio" value="Other" />
+            <label for="talk-type-3" class="radio-label">Другой вариант ответа</label>
+        </fieldset>
+        <div class="form-row">
+            <label for="Age">Возраст</label>
+            <select id="Age" Age="Age">
+                <option value="0x18">Моложе 18 лет</option>
+                <option value="18x25">От 18 до 25 лет</option>
+                <option value="26x45">От 26 до 45 лет</option>
+                <option value="40x">Старше 45 лет</option>
+            </select>
+        </div>
+        <fieldset class="legacy-form-row">
+            <legend>Образование</legend>
+            <input id="talk-type-1" name="talk-type" type="radio" value="Middle" />
+            <label for="talk-type-1" class="radio-label">Среднее/средне-специальное</label>
+            <input id="talk-type-2" name="talk-type" type="radio" value="High" />
+            <label for="talk-type-2" class="radio-label">Высшее</label>
+            <input id="talk-type-3" name="talk-type" type="radio" value="Doctor" />
+            <label for="talk-type-3" class="radio-label">Ученая степень</label>
+            <input id="talk-type-4" name="talk-type" type="radio" value="Other" />
+            <label for="talk-type-4" class="radio-label">Другой вариант ответа</label>
+        </fieldset>
+        <div class="form-row">
+            <label for="Income">Ваш доход</label>
+            <select id="Income" Income="Income">
+                <option value="0x990">От 0 до 990 евро в месяц</option>
+                <option value="1000x1990">От 1000 др 1990 евро в месяц</option>
+                <option value="2000x4990">От 2000 до 4990 евро в месяц</option>
+                <option value="5000x">Выше 5000 евро в месяц</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label for="abstract">Расскажите несколько слов о Вашем видении идеального сервиса</label>
+            <textarea id="abstract" name="abstract"></textarea>
+            <div class="instructions"></div>
+        </div>
+        <div class="form-row">
+            <label for="email">Почта</label>
+            <input id="email" name="email" type="email" placeholder="example@example.com" />
+        </div>
+        <div class="form-row">
+            <label for="Number">Номер телефона</label>
+            <input id="Number" name="Number" type="tel" />
+        </div>
+        <fieldset class="legacy-form-row">
+            <legend>Предпочтительный способ связи</legend>
+            <input id="talk-type-1" name="talk-type" type="radio" value="Mail" />
+            <label for="talk-type-1" class="radio-label">Почта</label>
+            <input id="talk-type-2" name="talk-type" type="radio" value="sms" />
+            <label for="talk-type-2" class="radio-label">СМС</label>
+            <input id="talk-type-3" name="talk-type" type="radio" value="None" />
+            <label for="talk-type-3" class="radio-label">Отказаться от рассылки</label>
+        </fieldset>
+        <div class="form-row">
+            <button>Отправить</button>
+        </div>
+    </form>
